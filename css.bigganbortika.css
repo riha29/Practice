@@ -1,0 +1,47 @@
+nav ul {
+    display: flex;
+    
+}
+nav li {
+   list-style: none; 
+   margin-right: 3px;
+   padding: 2px 4px;
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+nav li :hover {
+    background-color: cornflowerblue;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+    display: flex;
+    width: 100%;
+}
+
+.in-navbar {
+    padding: 1px;
+    
+    margin-right: 3px;
+    margin-left: 3px;
+    list-style-type: none;
+    background-color: blueviolet;
+    border-radius: 3px;
+    padding: 3px 4px;
+
+}
