@@ -7,9 +7,23 @@
     <title>Event </title>
 </head>
 
-
 <body>
  <h1> Event niye clickbaji</h1>    
- <button> click </button>
+ <button onclick="document.body.style.backgroundColor = 'red'"> click me red </button>
+ <button onclick="yellowMe()"> click me yellow</button>
+ <button id="bluebutton"> click me blue </button>
+ 
+ 
+ <script>
+     const bluecolorbutton = document.getElementById('bluebutton');
+     function yellowMe(){
+         document.body.style.backgroundColor = 'yellow' ;
+     }
+
+     bluecolorbutton.onclick = blueMe ;
+     function blueMe() {
+         document.body.style.backgroundColor = 'blue' ;
+     }
+ </script>
 </body>
 </html>
